@@ -26,11 +26,75 @@ $(document).ready(function() {
       cobaltAmount = add(cobaltAmount, 1);
     }
     else if (responseOne === "qbasic") {
-      cobaltAmount = add(cobaltAmount, 1);
+      qbasicAmount = add(qbasicAmount, 1);
     }
-    else (responseOne === "java") {
-      cobaltAmount = add(cobaltAmount, 1);
+    else if (responseOne === "java") {
+      javaAmount = add(javaAmount, 1);
     }
     
+    if (responseTwo === "dream") {
+      dreamAmount = add(dreamAmount, 1);
+    } 
+    else if ( responseTwo== "fortran") {
+      fortranAmount = add(fortranAmount, 1);
+    }
+    else if (responseTwo === "cobalt") {
+      cobaltAmount = add(cobaltAmount, 1);
+    }
+    else if (responseTwo === "qbasic") {
+      qbasicAmount = add(qbasicAmount, 1);
+    }
+    else if(responseTwo === "java") {
+      javaAmount = add(javaAmount, 1);
+    }
+
+    if (responseThree === "dream") {
+      dreamAmount = add(dreamAmount, 1);
+    } 
+    else if ( responseThree== "fortran") {
+      fortranAmount = add(fortranAmount, 1);
+    }
+    else if (responseThree === "cobalt") {
+      cobaltAmount = add(cobaltAmount, 1);
+    }
+    else if (responseThree === "qbasic") {
+      qbasicAmount = add(qbasicAmount, 1);
+    }
+    else if(responseThree === "java") {
+      javaAmount = add(javaAmount, 1);
+    }
+    
+    if (responseFour === "dream") {
+      dreamAmount = add(dreamAmount, 1);
+    } 
+    else if ( responseFour== "fortran") {
+      fortranAmount = add(fortranAmount, 1);
+    }
+    else if (responseFour === "cobalt") {
+      cobaltAmount = add(cobaltAmount, 1);
+    }
+    else if (responseFour === "qbasic") {
+      qbasicAmount = add(qbasicAmount, 1);
+    }
+    else if(responseFour === "java") {
+      javaAmount = add(javaAmount, 1);
+    }
+
+    if (responseFive === "dream") {
+      dreamAmount = add(dreamAmount, 1);
+    } 
+    else if ( responseFive== "fortran") {
+      fortranAmount = add(fortranAmount, 1);
+    }
+    else if (responseFive === "cobalt") {
+      cobaltAmount = add(cobaltAmount, 1);
+    }
+    else if (responseFive === "qbasic") {
+      qbasicAmount = add(qbasicAmount, 1);
+    }
+    else if(responseFive === "java") {
+      javaAmount = add(javaAmount, 1);
+    }
+
   });
 });
