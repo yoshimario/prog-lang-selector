@@ -1,3 +1,6 @@
+function add(number1, number2){
+  return number1 + number2;
+}
 $(document).ready(function() {
   $("#surveyInfo").submit(function() {
     event.preventDefault();
@@ -94,6 +97,27 @@ $(document).ready(function() {
     }
     else if(responseFive === "java") {
       javaAmount = add(javaAmount, 1);
+    }
+// Returning a result based on response calculations
+    if (dreamAmount >= 2) {
+      $("#programLang").text("Your programming language is Dream");
+      $("#programInfoLang").text("You really must not be reading the responses");
+    }
+    else if (fortranAmount >=3) {
+      $("#programLang").text("Your programming language is Fortran!");
+      $("#programInfoLang").text("You really living life inside a locked room!");
+    }
+    else if (cobaltAmount >=3) {
+      $("#programLang").text("Your programming language is Cobalt!");
+      $("#programInfoLang").text("You really most enjoy torture!");
+    }
+    else if (qbasicAmount >=3) {
+      $("#programLang").text("Your programming language is Qbasic!");
+      $("#programInfoLang").text("You are living in the past move on!");
+    }
+    else if (javaAmount >=3) {
+      $("#programLang").text("Your programming language is Qbasic!");
+      $("#programInfoLang").text("You are living in the past move on!");
     }
 
   });
