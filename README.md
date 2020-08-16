@@ -4,6 +4,9 @@
 
 #### By _**Sean Wilson**_
 
+![Oodi Helsinki Library](https://seanpwilson.com/wp-content/uploads/sites/1/nggallery/preview/IMG_2401.jpg)
+_A photo created by Sean Wilson_
+
 ## Description
 
 _This project will allow an interactive experience to find out what programming language suits the individual on a selected responses._
