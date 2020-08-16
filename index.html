@@ -13,32 +13,36 @@
   <div class="container">
     <h1>Find Your Inner Zen!</h1>
     <p>Find your new programming language!</p>
+    
     <form id="surveyInfo">
-
-      <div class="">
-        <label for="input1">1st number:</label>
-        <input id="input1" class="form-control" type="text">
+      <div class="form-group">
+        <label for="name">Enter your name: </label>
+        <input id="name" class="form-control" type="text">
       </div>
 
-      <div class="">
-        <label for="input1">1st number:</label>
-        <input id="input1" class="form-control" type="text">
+      <div>
+        <label for="answerOne">What is your favorite planet? </label>
+        <select class="form-control" id="planet">
+          <option value="0">Select Answer:</option>
+          <option value="1">Mars</option>
+          <option value="2">Jupiter</option>
+          <option value="3">Pluto</option>
+          <option value="4">Earth</option>
+        </select>
       </div>
 
-      <div class="">
-        <label for="input1">1st number:</label>
-        <input id="input1" class="form-control" type="text">
+      <div>
+        <label for="answerTwo">What is your favorite fruit </label>
+        <select class="form-control" id="fruit">
+          <option value="0">Select Answer:</option>
+          <option value="1">Strawberry</option>
+          <option value="2">Blueberry</option>
+          <option value="3">Golden Nugget</option>
+          <option value="4">Apple</option>
+        </select>
       </div>
 
-      <div class="">
-        <label for="input1">1st number:</label>
-        <input id="input1" class="form-control" type="text">
-      </div>
-      
-      <div class="">
-        <label for="input1">1st number:</label>
-        <input id="input1" class="form-control" type="text">
-      </div>
+      <button type="submit" class="btn-danger">Click to Submit!</button>
     </form>
   </div>
 </body>
