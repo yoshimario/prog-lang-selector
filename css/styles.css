@@ -1,4 +1,4 @@
-#qbasic, #java, #fortran, #cobolt, #dream {  
+#qbasic, #java, #fortran, #cobolt, #dream{  
   display: none;
 }
 
@@ -7,7 +7,29 @@ h1{
   font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
   color: blueviolet;
 }
-p {
+p.inital{
   font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
   text-align: center;
+}
+body{
+  background: url('../img/bgimage.jpg');
+  background-color: rgb(231, 120, 120);
+  background-attachment: fixed;
+  background-size: 100% 100%;
+  background-repeat: no-repeat;
+}
+.programResult {
+  position: relative;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  min-width: 0;
+  word-wrap: break-word;
+  background-color: rgb(173, 53, 53);
+  background-clip: border-box;
+  border: 3px dotted rgba(0, 0, 0, 0.125);
+  border-radius: 0.25rem;
+  text-align: center;
+  color: antiquewhite;
 }

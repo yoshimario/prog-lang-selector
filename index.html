@@ -12,15 +12,15 @@
 <body>
   <div class="container">
     <h1>Find Your Inner Zen!</h1>
-    <p>Find your new programming language today!</p>
+    <p class="inital">Find your new programming language today!</p>
     
     <form id="surveyInfo">
       <div class="form-group">
-        <label for="name">Enter your name: </label>
-        <input id="name" class="form-control" type="text">
+        <label for="personName">Enter your name: </label>
+        <input id="personName" class="form-control" type="text">
       </div>
 
-      <div>
+      <div class="card">
         <label for="questionOne">What is your favorite planet? </label>
         <select class="form-control" id="questionOne">
           <option value="dream">Select Answer:</option>
@@ -31,7 +31,7 @@
         </select>
       </div>
 
-      <div>
+      <div class="card">
         <label for="questionTwo">What is your favorite fruit? </label>
         <select class="form-control" id="questionTwo">
           <option value="dream">Select Answer:</option>
@@ -42,7 +42,7 @@
         </select>
       </div>
 
-      <div>
+      <div class="card">
         <label for="questionThree">Would you rather spend a night in?</label>
         <select class="form-control" id="questionThree">
           <option value="dream">Select Answer:</option>
@@ -53,7 +53,7 @@
         </select>
       </div>
 
-      <div>
+      <div class="card">
         <label for="questionFour">What is the best color! </label>
         <select class="form-control" id="questionFour">
           <option value="dream">Select Answer:</option>
@@ -64,7 +64,7 @@
         </select>
       </div>
 
-      <div>
+      <div class="card">
         <label for="questionFive">What is your type of hobby?</label>
         <select class="form-control" id="questionFive">
           <option value="dream">Select Answer:</option>
@@ -77,7 +77,10 @@
 
       <button type="submit" class="btn-danger">Click to Submit!</button>
     </form>
-    <div id="programResult">
+    <!-- This is the Result Div -->
+
+    <div class="programResult" id="programResult">
+      <p>Congratulations: <span class="userResult"></span></p>
       <p><span id="programLang"></span></p>
       <p><span id="programInfoLang"></span></p>
     </div>
