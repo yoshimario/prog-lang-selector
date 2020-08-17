@@ -2,7 +2,8 @@ function add(number1, number2){
   return number1 + number2;
 }
 $(document).ready(function() {
-  $("#surveyInfo").submit(function() {
+  $("form#surveyInfo").submit(function() {
+    $('#dream, #cobalt, #qbasic, #fortran, #java').hide();
     event.preventDefault();
     // Define variable tallies for responses.
     let dreamAmount = 0;
